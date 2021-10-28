@@ -32,16 +32,6 @@ class _GlobalStatScreenState extends State<GlobalStatScreen> {
     } on FetchDataException catch (fde) {
       return fde;
     }
-    //Initially i fetched top 5 and added pakistan details following that
-    //Because i wanted to show pakistan details in top 6 stats :)
-    var pakStats;
-    try {
-      pakStats =
-          await _client.getStatsResponse(StateLocation.SPECIFIC, code: "PK");
-    } on FetchDataException catch (fde) {
-      return fde;
-    }
-    json.insert(0, pakStats);
 
     json.forEach((country) {
       SummaryEachCountry summary = SummaryEachCountry().formMap(country);

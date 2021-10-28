@@ -8,28 +8,6 @@ import 'package:flutter/material.dart';
 class ApiClient {
   ApiService _apiService = ApiService();
 
-  getNewsResponse(String value) async {
-    String endpoint = _getNewsEndpoint(value);
-    String url = _apiService.newsUrl +
-        _apiService.query +
-        "&" +
-        _apiService.limit +
-        "&" +
-        endpoint +
-        "&" +
-        ApiService.apiKey;
-    try {
-      var response = await http.get(url);
-      var json = jsonDecode(response.body);
-      if (json['status'] == "ok") {
-        return json;
-      } else if (json['status'] == "error") {
-        throw FetchDataException(json['code'] + json['message']);
-      }
-    } on SocketException {
-      throw FetchDataException('No Internet connection');
-    }
-  }
 
   getStatsResponse(StateLocation stateLocation,
       {String code = "", bool yesterday = false}) async {
@@ -68,17 +46,6 @@ class ApiClient {
       endpoint += "?";
     }
     return endpoint + "allowNull=false&yesterday=$yesterday";
-  }
-
-  _getNewsEndpoint(String value) {
-    if (value == "Last Week") {
-      return "from=${_getDate(7)}&sortBy=popular";
-    } else if (value == "Last 15") {
-      return "from=${_getDate(15)}&sortBy=popular";
-    } else if (value == "Last Month") {
-      return "from=${_getDate(30)}&sortBy=popular";
-    }
-    return "from=${_getDate(10)}&sortBy=$value";
   }
 
   _getDate(int days) {
