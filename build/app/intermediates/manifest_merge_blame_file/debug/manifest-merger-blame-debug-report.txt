@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.inceptrafay.covidtracker"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:8:5-66
+14-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:8:22-64
+15
+16    <application
+16-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:9:5-50:19
+17        android:name="io.flutter.app.FlutterApplication"
+17-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:10:9-57
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b399c2363bb098ebde1725d903cbda0\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="Covid Stats" >
+21-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:11:9-36
+22        <meta-data
+22-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:13:9-15:33
+23            android:name="flutterEmbedding"
+23-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:14:13-44
+24            android:value="2" />
+24-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:15:13-30
+25
+26        <activity
+26-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:16:9-44:20
+27            android:name="com.inceptrafay.covidtracker.MainActivity"
+27-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:17:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:20:13-163
+29            android:hardwareAccelerated="true"
+29-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:21:13-47
+30            android:launchMode="singleTop"
+30-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:18:13-43
+31            android:theme="@style/LaunchTheme"
+31-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:19:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:22:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:27:13-30:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:28:15-70
+42                android:resource="@style/NormalTheme" />
+42-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:29:15-52
+43            <!--
+44                 Displays an Android View that continues showing the launch screen
+45                 Drawable until Flutter paints its first frame, then this splash
+46                 screen fades out. A splash screen is useful to avoid any visual
+47                 gap between the end of Android's launch screen and the painting of
+48                 Flutter's first frame.
+49            -->
+50            <meta-data
+50-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:36:13-39:17
+51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+51-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:37:15-79
+52                android:resource="@drawable/launch_background" />
+52-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:38:15-61
+53
+54            <intent-filter>
+54-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:40:13-43:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:41:17-68
+55-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:41:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:42:17-76
+57-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:42:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:13:9-15:33
+65            android:name="flutterEmbedding"
+65-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:14:13-44
+66            android:value="2" />
+66-->D:\VisualStudio[Flutter]\Covid_tracker\android\app\src\main\AndroidManifest.xml:15:13-30
+67
+68        <activity
+68-->[:url_launcher] D:\VisualStudio[Flutter]\Covid_tracker\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+69            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+69-->[:url_launcher] D:\VisualStudio[Flutter]\Covid_tracker\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+70            android:exported="false"
+70-->[:url_launcher] D:\VisualStudio[Flutter]\Covid_tracker\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+71            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+71-->[:url_launcher] D:\VisualStudio[Flutter]\Covid_tracker\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+72    </application>
+73
+74</manifest>
