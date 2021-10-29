@@ -18,7 +18,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Covid Stats" >
+        android:label="Covid Stat Analyzer" >
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />

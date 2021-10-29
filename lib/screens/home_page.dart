@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 0,
         centerTitle: true,
         title: AutoSizeText(
-          "Covid-19 Tracker",
+          "Covid-19",
           style: TextStyle(
             fontSize: 30,
             fontFamily: "Montserrat",

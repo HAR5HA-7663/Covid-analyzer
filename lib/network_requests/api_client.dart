@@ -8,7 +8,6 @@ import 'package:flutter/material.dart';
 class ApiClient {
   ApiService _apiService = ApiService();
 
-
   getStatsResponse(StateLocation stateLocation,
       {String code = "", bool yesterday = false}) async {
     String endpoint = _getStatsEndpoint(

@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml
+8-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml
+9-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml
 10    <!--
 11         io.flutter.app.FlutterApplication is an android.app.Application that
 12         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -17,43 +17,43 @@
 15         FlutterApplication and put your custom class here.
 16    -->
 17    <uses-permission android:name="android.permission.INTERNET" />
-17-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:8:5-66
-17-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:8:22-64
+17-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:7:5-66
+17-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:7:22-64
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:8:5-66
-18-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:8:22-64
+18-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:7:5-66
+18-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:7:22-64
 19
 20    <application
-20-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:9:5-50:19
+20-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:8:5-30:19
 21        android:name="io.flutter.app.FlutterApplication"
-21-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:10:9-57
+21-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:8:18-66
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b399c2363bb098ebde1725d903cbda0\core-1.1.0\AndroidManifest.xml:24:18-86
 23        android:icon="@mipmap/ic_launcher"
-23-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:12:9-43
-24        android:label="covidtracker" >
-24-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:11:9-37
+23-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:8:103-137
+24        android:label="Covid Stat Analyzer" >
+24-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:8:67-102
 25        <meta-data
-25-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:13:9-15:33
+25-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:9:9-72
 26            android:name="flutterEmbedding"
-26-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:14:13-44
+26-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:9:20-51
 27            android:value="2" />
-27-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:15:13-30
+27-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:9:52-69
 28
 29        <activity
-29-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:16:9-44:20
+29-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:10:9-26:20
 30            android:name="com.inceptrafay.covidtracker.MainActivity"
-30-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:17:13-41
+30-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:10:19-47
 31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-31-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:20:13-163
+31-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:10:114-264
 32            android:hardwareAccelerated="true"
-32-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:21:13-47
+32-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:10:265-299
 33            android:launchMode="singleTop"
-33-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:18:13-43
+33-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:10:48-78
 34            android:theme="@style/LaunchTheme"
-34-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:19:13-47
+34-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:10:79-113
 35            android:windowSoftInputMode="adjustResize" >
-35-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:22:13-55
+35-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:10:300-342
 36
 37            <!--
 38                 Specifies an Android theme to apply to this Activity as soon as
@@ -62,11 +62,11 @@
 41                 to determine the Window background behind the Flutter UI.
 42            -->
 43            <meta-data
-43-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:27:13-30:17
+43-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:15:13-120
 44                android:name="io.flutter.embedding.android.NormalTheme"
-44-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:28:15-70
+44-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:15:24-79
 45                android:resource="@style/NormalTheme" />
-45-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:29:15-52
+45-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:15:80-117
 46            <!--
 47                 Displays an Android View that continues showing the launch screen
 48                 Drawable until Flutter paints its first frame, then this splash
@@ -75,21 +75,21 @@
 51                 Flutter's first frame.
 52            -->
 53            <meta-data
-53-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:36:13-39:17
+53-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:21:13-138
 54                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-54-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:37:15-79
+54-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:21:24-88
 55                android:resource="@drawable/launch_background" />
-55-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:38:15-61
+55-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:21:89-135
 56
 57            <intent-filter>
-57-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:40:13-43:29
+57-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:22:13-25:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:41:17-68
-58-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:41:25-66
+58-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:23:17-68
+58-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:23:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:42:17-76
-60-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:42:27-74
+60-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:24:17-76
+60-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:24:27-74
 61            </intent-filter>
 62        </activity>
 63        <!--
@@ -97,20 +97,20 @@
 65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 66        -->
 67        <meta-data
-67-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:13:9-15:33
+67-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:9:9-72
 68            android:name="flutterEmbedding"
-68-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:14:13-44
+68-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:9:20-51
 69            android:value="2" />
-69-->D:\VisualStudio[Flutter]\Covid Tracker\android\app\src\main\AndroidManifest.xml:15:13-30
+69-->D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\android\app\src\main\AndroidManifest.xml:9:52-69
 70
 71        <activity
-71-->[:url_launcher] D:\VisualStudio[Flutter]\Covid Tracker\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+71-->[:url_launcher] D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
 72            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-72-->[:url_launcher] D:\VisualStudio[Flutter]\Covid Tracker\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+72-->[:url_launcher] D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
 73            android:exported="false"
-73-->[:url_launcher] D:\VisualStudio[Flutter]\Covid Tracker\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+73-->[:url_launcher] D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
 74            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-74-->[:url_launcher] D:\VisualStudio[Flutter]\Covid Tracker\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+74-->[:url_launcher] D:\VisualStudio[Flutter]\Covid_tracker\Covid-analyzer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
 75    </application>
 76
 77</manifest>

@@ -1,4 +1,4 @@
-#Thu Oct 28 21:26:14 IST 2021
+#Fri Oct 29 06:23:43 IST 2021
 base.0=D\:\\VisualStudio[Flutter]\\Covid_tracker\\Covid-analyzer\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

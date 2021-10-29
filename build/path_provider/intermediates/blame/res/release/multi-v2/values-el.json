@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\VisualStudio[Flutter]\\Covid Tracker\\build\\path_provider\\intermediates\\res\\merged\\release\\values-el\\values-el.xml",
+            "outputFile": "D:\\VisualStudio[Flutter]\\Covid_tracker\\Covid-analyzer\\build\\path_provider\\intermediates\\res\\merged\\release\\values-el\\values-el.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-2\\files-2.1\\6b399c2363bb098ebde1725d903cbda0\\core-1.1.0\\res\\values-el\\values-el.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "D:\\VisualStudio[Flutter]\\Covid Tracker\\build\\path_provider\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-el\\values-el.xml",
+            "outputFile": "D:\\VisualStudio[Flutter]\\Covid_tracker\\Covid-analyzer\\build\\path_provider\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-el\\values-el.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-2\\files-2.1\\6b399c2363bb098ebde1725d903cbda0\\core-1.1.0\\res\\values-el\\values-el.xml",
