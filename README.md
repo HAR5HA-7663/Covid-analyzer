@@ -14,7 +14,7 @@ One of the most difficult tasks is that, the selection of the software, once sys
 ### Software Requirement
 1.	Windows 7 or higher version OS
 2.	Android Studio and flutter
-3.	<p>The disease.sh [Open Disease Data API] used to get the data can be found <a href=" https://corona.lmao.ninja/">here</a></p>
+3.	<p>The disease.sh [Open Disease Data API] used to get the data can be found<a href=" https://corona.lmao.ninja/">here</a></p>
 4.	visual studio code [optional]
 
 ## Description of FMS
