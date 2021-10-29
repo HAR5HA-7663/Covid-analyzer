@@ -15,7 +15,7 @@ One of the most difficult tasks is that, the selection of the software, once sys
 1.	Windows 7 or higher version OS
 2.	Android Studio and flutter
 3.	visual studio code [optional]
-4.	The disease.sh [Open Disease Data API] used to get the data can be found <a href=" https://corona.lmao.ninja/">here</a>
+4.	The disease.sh [Open Disease Data API] used to get the data can be found [here](https://corona.lmao.ninja/)
 
 ## Description of FMS
 This project handles with the unstructured data that is provided by the open source API that is mentioned in the software requirements and analyses it and sorts it and take the required data using json formatting functions. it also provides great UI for visualizing the data and interpreting it in form of radial graph and few small graph pictorial animation depending on the increasing or decreasing curves that is taken from the given data provided by the API.
